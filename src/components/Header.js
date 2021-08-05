@@ -1,11 +1,7 @@
 import React from "react";
 
 function Header() {
-  return (
-    <div>
-      <h1>Header Tesla</h1>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default Header;
