@@ -81,14 +81,12 @@ const Menu = styled.div`
   align-items: center;
   justify-content: center;
   flex: 1;
-
   a {
     font-weight: 600;
     text-transform: uppercase;
     padding: 0 10px;
     flex-wrap: nowrap;
   }
-
   @media (max-width: 768px) {
     display: none;
   }
@@ -121,15 +119,14 @@ const BurgerNav = styled.div`
   display: flex;
   flex-direction: column;
   text-align: start;
-  transform: ${(props) => (props.show ? "translateX(0)" : "translateY(100%)")}
+  transform: ${(props) => (props.show ? "translateX(0)" : "translateX(100%)")};
   transition: transform 0.2s;
-    li {
+  li {
     padding: 15px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-
-    a {
-      font-weight: 600;
-    }
+  }
+  a {
+    font-weight: 600;
   }
 `;
 
